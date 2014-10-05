@@ -25,3 +25,34 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+
+// Custom Doba syntaxis hilighting color variables
+
+// basic
+$background: #444340;
+$text: #EDE0CE;
+
+
+// key words //
+
+// class, func, if/else
+$basickey: #39B81F; //green
+
+// comments
+$comment: #7A7267;
+
+// error
+$error: #D63131; //red
+
+// func names/ strings
+$str: #E9D925; //yellow
+
+// @var, @param
+$param: #BDAE9A; //mocha
+
+// operators (=,===,-> etc.)
+$oper: #39B81F;
+
+// dom nodes
+$dom: #58D367;
