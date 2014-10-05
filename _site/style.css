@@ -68,6 +68,12 @@ table {
   opacity: 0.5;
 }
 
+.entry-foreground a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /**************/
 /* BASE RULES */
 /**************/
