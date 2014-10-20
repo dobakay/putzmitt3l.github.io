@@ -16,6 +16,8 @@ Now a bit background on HackBulgaria... brace yourselves here come advertisement
 
 * Practices the "reverse classroom teaching"
 
+<!-- TODO: add HB pic -->
+
 For those interested here's a link to the site: www.hackbulgaria.com .... end of advertising.
 
 Now continuing... so it wasn't long after (actually on the second lecture) that I got to create something cool. "What was it?" you ask. Well a routing engine... A freakin' routing engine in Node. More on that in Wiki(add description link).
@@ -41,3 +43,9 @@ _The syntax of a URL_:
 * Finally, the part that conserns us most. The ```path``` provides a mechanism for requesting specific resources and services from a website. For example if we can request from a site our "user profile" page that has a path "/user.profile" -> "www.ourawesomesite.com/user.profile" or some news feed "/news" -> "www.ourawesomesite.com/news".
 
 * The ```query_string``` is present if we are passing some arguments to our http request. Example: "?first_name=John&last_name=Doe"
+
+The job of a routing engine, framework etc. is to process each made request to the server with the given parameters to it AND return correct the response.
+
+###HTTP Methods
+---------------
+For each request made to the server, we have a method that indicates what we want to do with the resouce served to us (roughly speaking).

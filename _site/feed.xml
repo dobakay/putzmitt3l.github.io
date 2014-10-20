@@ -69,6 +69,8 @@ Now a bit background on HackBulgaria… brace yourselves here come advertisement
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;!-- TODO: add HB pic --&gt;
+
 &lt;p&gt;For those interested here’s a link to the site: www.hackbulgaria.com …. end of advertising.&lt;/p&gt;
 
 &lt;p&gt;Now continuing… so it wasn’t long after (actually on the second lecture) that I got to create something cool. “What was it?” you ask. Well a routing engine… A freakin’ routing engine in Node. More on that in Wiki(add description link).&lt;/p&gt;
@@ -103,8 +105,14 @@ particularly when used with HTTP) is a specific character string that constitute
     &lt;p&gt;The &lt;code&gt;query_string&lt;/code&gt; is present if we are passing some arguments to our http request. Example: “?first_name=John&amp;amp;last_name=Doe”&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The job of a routing engine, framework etc. is to process each made request to the server with the given parameters to it AND return correct the response.&lt;/p&gt;
+
+&lt;h3 id=&quot;http-methods&quot;&gt;HTTP Methods&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;For each request made to the server, we have a method that indicates what we want to do with the resouce served to us (roughly speaking).&lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Oct 2014 20:12:14 +0300</pubDate>
+        <pubDate>Mon, 20 Oct 2014 20:23:05 +0300</pubDate>
         <link>/I-made-a-server-and-I-called-him-Walter/</link>
         <guid isPermaLink="true">/I-made-a-server-and-I-called-him-Walter/</guid>
       </item>
