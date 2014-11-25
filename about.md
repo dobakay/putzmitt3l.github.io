@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Cookie destroyer! Chocolate eater! Professional info coming soon...
+Cookie destroyer! Chocolate eater!
 
 ### [Curriculum Vitae](/cv)
 -----------------------
