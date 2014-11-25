@@ -3,18 +3,6 @@
   
   
   <url>
-    <loc>/I-made-a-server-and-I-called-him-Walter/</loc>
-    <lastmod>2014-10-20T20:23:05+03:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/Creating-JQM-like-transitions/</loc>
-    <lastmod>2014-10-02T00:55:06+03:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>/Creating-JQM-like-transitions/</loc>
     <lastmod>2014-09-29T00:00:00+03:00</lastmod>
     <priority>0.8</priority>
@@ -29,25 +17,31 @@
   
   <url>
     <loc>/404.html</loc>
-    <lastmod>2014-10-20T20:23:05+03:00</lastmod>
+    <lastmod>2014-11-26T00:15:56+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2014-10-20T20:23:05+03:00</lastmod>
+    <lastmod>2014-11-26T00:15:56+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-10-20T20:23:05+03:00</lastmod>
+    <lastmod>2014-11-26T00:15:56+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
+  
+  <url>
+    <loc>/cv/index.html</loc>
+    <lastmod>2014-11-26T00:15:56Z</lastmod>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>/demo/transitions/index.html</loc>

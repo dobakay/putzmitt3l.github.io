@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dobromir's CV</title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <style type="text/css">
+        html, body, .wrapper {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #444340;
+        }
+
+        .wrapper {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        pre {
+            margin: 0;
+            padding: 20px 5px;
+            color: #EDE0CE;
+        }
+
+        .string, .boolean,  .number {
+            color: #39B81F;
+        }
+
+        .key, .null {
+            color: #E9D925;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <pre></pre>
+    </div>
+<script type="text/javascript">
+    function syntaxHighlight(json) {
+        json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+            var cls = 'number';
+            if (/^"/.test(match)) {
+                if (/:$/.test(match)) {
+                    cls = 'key';
+                } else {
+                    cls = 'string';
+                }
+            } else if (/true|false/.test(match)) {
+                cls = 'boolean';
+            } else if (/null/.test(match)) {
+                cls = 'null';
+            }
+            return '<span class="' + cls + '">' + match + '</span>';
+        });
+    }
+
+    $.getJSON('./cv.json', function(json) {
+            var jsonString = JSON.stringify(json, undefined, 4);
+            $('.wrapper pre').html(syntaxHighlight(jsonString));
+    });
+</script>
+</body>
+</html>
