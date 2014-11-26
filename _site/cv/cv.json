@@ -1,11 +1,11 @@
 {
     "personalInfo": {
         "name": "Dobromir Dimitrov Kralev",
-        "number": "0887176281",
+        "telephoneNumber": "+359887176281",
         "nationality": "Bulgarian",
         "dateOfBirth": "14/11/1990"
     },
-    "educatioAndTraining": [{
+    "educationAndTraining": [{
         "facility": "Joan Ekzarh Fifth Language High School",
         "speciality": "English Profile",
         "timeSpan": {
@@ -57,16 +57,16 @@
     }],
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
-        "languages": ["C++", "C#", "Python", "JavaScript", "SQL", "NodeJS", "Java", "HTML", "CSS", "SASS"],
-        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS","ASP .NET", "jQuery", "JQM", "jQueryUI", "Blender", "Bootstrap", "Sencha", "PhoneGap", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai"],
+        "languages": ["JavaScript", "HTML", "CSS", "SASS", "C#", "C++", "Python", "SQL", "Java"],
+        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha"],
         "favouriteTextEditor": "Sublime Text",
         "otherLanguages": ["English", "German"]
     },
-    "socialWorkSkills": ["ability to estimate tasks", "prioritising tasks", "task sectioning", "pair programming", "scrum", "canban", "seeking feedback and code reviews", "writing documentation"],
+    "socialWorkSkills": ["ability to estimate tasks", "prioritising tasks", "task sectioning", "pair programming", "scrum", "kanban", "seeking feedback and code reviews", "writing documentation"],
     "interests": ["guitar", "basketball", "snowboarding"],
     "socialinfo": {
-        "github": "github.com/Putzmitt3l/",
-        "twitter": "@putzmitt3l",
+        "github": "https://github.com/Putzmitt3l/",
+        "twitter": "https://twitter.com/putzmitt3l",
         "blog": "putzmitt3l.github.io",
         "email": "dkralev90@gmail.com"
     },
