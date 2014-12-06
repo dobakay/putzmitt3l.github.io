@@ -40,7 +40,7 @@
     }, {
         "facility": "Sofia University",
         "faculty": "Mathematics and Informatics",
-        "speciality": "Information Systems",
+        "speciality": "Distributed Systems and Mobile Technologies",
         "degree": "Major",
         "timeSpan": {
             "start": "2014",
@@ -62,7 +62,7 @@
         "favouriteTextEditor": "Sublime Text",
         "otherLanguages": ["English", "German"]
     },
-    "socialWorkSkills": ["ability to estimate tasks", "prioritising tasks", "task sectioning", "pair programming", "scrum", "kanban", "seeking feedback and code reviews", "writing documentation"],
+    "socialWorkSkills": ["ability to estimate tasks", "prioritising tasks", "pair programming", "scrum", "kanban", "seeking feedback and code reviews", "writing documentation", "rubber duck debugging :)"],
     "interests": ["guitar", "basketball", "snowboarding"],
     "socialinfo": {
         "github": "https://github.com/Putzmitt3l/",
