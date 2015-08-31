@@ -1,0 +1,74 @@
+{
+    "personalInfo": {
+        "name": "Dobromir Dimitrov Kralev",
+        "telephoneNumber": "+359887176281",
+        "nationality": "Bulgarian",
+        "dateOfBirth": "14/11/1990"
+    },
+    "educationAndTraining": [{
+        "facility": "Joan Ekzarh Fifth Language High School",
+        "speciality": "English Profile",
+        "timeSpan": {
+            "start": "2004",
+            "end": "2009"
+        }
+    }, {
+        "facility": "Sofia University",
+        "faculty": "Mathematics and Informatics",
+        "speciality": "Information Systems",
+        "degree": "Bachelor",
+        "timeSpan": {
+            "start": "2009",
+            "end": "2013"
+        }
+    }, {
+        "facility": "Telerik",
+        "faculty": "Telerik Academy",
+        "speciality": "Software Development",
+        "timeSpan": {
+            "start": "2012",
+            "end": "2013"
+        }
+    }, {
+        "facility": "Hack Bulgaria",
+        "faculty": "Hack Bulgaria",
+        "speciality": "NodeJS development",
+        "timeSpan": {
+            "start": "2014",
+            "end": ""
+        }
+    }, {
+        "facility": "Sofia University",
+        "faculty": "Mathematics and Informatics",
+        "speciality": "Distributed Systems and Mobile Technologies",
+        "degree": "Major",
+        "timeSpan": {
+            "start": "2014",
+            "end": ""
+        }
+    }],
+    "professionalBackground": [ {
+        "company": "Up2Technology",
+        "position": "Front-end/JavaScript developer",
+        "timeSpan": {
+            "start": "10/9/2013",
+            "end": "3/1/2015"
+        }
+    }],
+    "programmingSkills": {
+        "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
+        "languages": ["JavaScript", "HTML", "CSS", "SASS", "C#", "C++", "Python", "SQL", "Java"],
+        "technologiesLibrariesFrameworks": ["Git", "SVN", "TFS", "jQuery", "JQM", "jQueryUI", "ASP .NET", "PhoneGap", "NodeJS", "MongoDB", "LeafletJS", "GruntJS", "Mocha", "Chai", "Blender", "Bootstrap", "Sencha"],
+        "favouriteTextEditor": "Sublime Text",
+        "otherLanguages": ["English", "German"]
+    },
+    "socialWorkSkills": ["ability to estimate tasks", "prioritizing tasks", "pair programming", "scrum", "kanban", "seeking feedback and code reviews", "writing documentation", "rubber duck debugging :)"],
+    "interests": ["guitar", "basketball", "snowboarding"],
+    "socialinfo": {
+        "github": "https://github.com/Putzmitt3l/",
+        "twitter": "https://twitter.com/putzmitt3l",
+        "blog": "putzmitt3l.github.io",
+        "email": "dkralev90@gmail.com"
+    },
+    "shortDescription": ""
+}
