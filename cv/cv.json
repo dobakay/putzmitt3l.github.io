@@ -54,6 +54,13 @@
             "start": "10/9/2013",
             "end": "3/1/2015"
         }
+    }, {
+        "company": "Auxionize",
+        "position": "JavaScript developer",
+        "timeSpan": {
+            "start": "15/1/2015",
+            "end": "1/6/2015"
+        }
     }],
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
