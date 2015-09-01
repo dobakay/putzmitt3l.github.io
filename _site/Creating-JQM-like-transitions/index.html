@@ -74,16 +74,14 @@ We only have <strong>ONE</strong> index.html page ( a “multi-page”).</p>
 
 <p>First we need to create our views container in our html and of course our views:</p>
 
-<div>
-  <pre><code class="html">&lt;div class=&quot;view-container&quot;&gt;
-    &lt;div id=&quot;home-view&quot; class=&quot;view current-view&quot;&gt;
-    &lt;/div&gt;
-    &lt;div id=&quot;second-view&quot; class=&quot;view&quot;&gt;
-    &lt;/div&gt;
-    &lt;div id=&quot;third-view&quot; class=&quot;view&quot;&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;view-container&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;home-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view current-view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;second-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">6</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;third-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">7</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">8</span> <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
 <p><em>Basic rundown of our html classes</em>:</p>
 
@@ -110,112 +108,110 @@ instead of just working with one universal “display-view” class</p>
 </ul>
 
 <p>Next we add the links that will help us navigate through the views:</p>
-<div>
-  <pre><code class="html">&lt;div class=&quot;view-container&quot;&gt;
-    &lt;div id=&quot;home-view&quot; class=&quot;view current-view&quot;&gt;
-        &lt;!--
-            These links can be used for icon containers
-            or styled like icons, buttons etc.
-        --&gt;
-        &lt;a href=&quot;#&quot; class=&quot;view-link&quot; data-view-link-dest=&quot;second-view&quot;&gt;
-          Second view
-        &lt;/a&gt;
-        &lt;a href=&quot;#&quot; class=&quot;view-link&quot; data-view-link-dest=&quot;third-view&quot; &gt;
-          Third view
-        &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div id=&quot;second-view&quot; class=&quot;view&quot;&gt;
-        &lt;!--
-            Note the View Transition data attribute.
-            This will help us further customise our view transitions
-            and of course the look and feel of our app.
-        --&gt;
-        &lt;a href=&quot;#&quot; class=&quot;view-link&quot; data-view-link-dest=&quot;home-view&quot; data-view-transition=&quot;slidelefttoright&quot;&gt;
-            Home view
-        &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div id=&quot;third-view&quot; class=&quot;view&quot;&gt;
-        &lt;a href=&quot;#&quot; class=&quot;view-link&quot; data-view-link-dest=&quot;home-view&quot; data-view-transition=&quot;slidelefttoright&quot;&gt;
-            Home view
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;view-container&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;home-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view current-view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="c">&lt;!--</span>
+<span class="lineno"> 4</span> <span class="c">            These links can be used for icon containers</span>
+<span class="lineno"> 5</span> <span class="c">            or styled like icons, buttons etc.</span>
+<span class="lineno"> 6</span> <span class="c">        --&gt;</span>
+<span class="lineno"> 7</span>         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;view-link&quot;</span> <span class="na">data-view-link-dest=</span><span class="s">&quot;second-view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 8</span>           Second view
+<span class="lineno"> 9</span>         <span class="nt">&lt;/a&gt;</span>
+<span class="lineno">10</span>         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;view-link&quot;</span> <span class="na">data-view-link-dest=</span><span class="s">&quot;third-view&quot;</span> <span class="nt">&gt;</span>
+<span class="lineno">11</span>           Third view
+<span class="lineno">12</span>         <span class="nt">&lt;/a&gt;</span>
+<span class="lineno">13</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">14</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;second-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">15</span>         <span class="c">&lt;!--</span>
+<span class="lineno">16</span> <span class="c">            Note the View Transition data attribute.</span>
+<span class="lineno">17</span> <span class="c">            This will help us further customise our view transitions</span>
+<span class="lineno">18</span> <span class="c">            and of course the look and feel of our app.</span>
+<span class="lineno">19</span> <span class="c">        --&gt;</span>
+<span class="lineno">20</span>         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;view-link&quot;</span> <span class="na">data-view-link-dest=</span><span class="s">&quot;home-view&quot;</span> <span class="na">data-view-transition=</span><span class="s">&quot;slidelefttoright&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">21</span>             Home view
+<span class="lineno">22</span>         <span class="nt">&lt;/a&gt;</span>
+<span class="lineno">23</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">24</span>     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;third-view&quot;</span> <span class="na">class=</span><span class="s">&quot;view&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">25</span>         <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;view-link&quot;</span> <span class="na">data-view-link-dest=</span><span class="s">&quot;home-view&quot;</span> <span class="na">data-view-transition=</span><span class="s">&quot;slidelefttoright&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">26</span>             Home view
+<span class="lineno">27</span>         <span class="nt">&lt;/a&gt;</span>
+<span class="lineno">28</span>     <span class="nt">&lt;/div&gt;</span>
+<span class="lineno">29</span> <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
 <p><strong>Note</strong>: The <code>view-link-dest</code> data attribute in the links contains ids of the divs that have a class “view”.</p>
 
 <p>Now for the CSS part:</p>
-<div>
-  <pre><code class="css">/* Animation container for the views*/
-.view-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
 
-    -webkit-perspective: 1200px;
-    -moz-perspective: 1200px;
-    perspective: 1200px;
-
-    -webkit-overlow-scrolling: touch;
-    overflow: hidden;
-}
-
-.view {
-    position: absolute;
-
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-
-    /* MUI IMPORTANTE: Do NOT use display: block/none for showing hiding pages*/
-    -webkit-transform: translate3d(-1000%,0,0);
-    -moz-transform: translate3d(-1000%,0,0);
-    transform: translate3d(-1000%,0,0);
-}
-
-.view.current-view {
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-.view.transition-view {
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-/* Move to/from LEFT/RIGHT animations */
-.view-move-to-left {
-    -webkit-animation: moveToLeft .6s ease both;
-    animation: moveToLeft .6s ease both;
-}
-
-.view-move-from-left {
-    -webkit-animation: moveFromLeft .6s ease both;
-    animation: moveFromLeft .6s ease both;
-}
-
-.view-move-to-right {
-    -webkit-animation: moveToRight .6s ease both;
-    animation: moveToRight .6s ease both;
-}
-
-.view-move-from-right {
-    -webkit-animation: moveFromRight .6s ease both;
-    animation: moveFromRight .6s ease both;
-}
-
-/*
-    Key-frames for LEFT/RIGHT movement animations
-    not included in article. Please check link to
-    github repo.
-*/</code></pre>
-</div>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="lineno"> 1</span> <span class="c">/* Animation container for the views*/</span>
+<span class="lineno"> 2</span> <span class="nc">.view-container</span> <span class="p">{</span>
+<span class="lineno"> 3</span>     <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
+<span class="lineno"> 4</span>     <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="lineno"> 5</span>     <span class="k">height</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="lineno"> 6</span> 
+<span class="lineno"> 7</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">perspective</span><span class="o">:</span> <span class="m">1200px</span><span class="p">;</span>
+<span class="lineno"> 8</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">perspective</span><span class="o">:</span> <span class="m">1200px</span><span class="p">;</span>
+<span class="lineno"> 9</span>     <span class="n">perspective</span><span class="o">:</span> <span class="m">1200px</span><span class="p">;</span>
+<span class="lineno">10</span> 
+<span class="lineno">11</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">overlow</span><span class="o">-</span><span class="n">scrolling</span><span class="o">:</span> <span class="n">touch</span><span class="p">;</span>
+<span class="lineno">12</span>     <span class="k">overflow</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span>
+<span class="lineno">13</span> <span class="p">}</span>
+<span class="lineno">14</span> 
+<span class="lineno">15</span> <span class="nc">.view</span> <span class="p">{</span>
+<span class="lineno">16</span>     <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+<span class="lineno">17</span> 
+<span class="lineno">18</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">transform</span><span class="o">-</span><span class="n">style</span><span class="o">:</span> <span class="n">preserve</span><span class="m">-3</span><span class="n">d</span><span class="p">;</span>
+<span class="lineno">19</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">transform</span><span class="o">-</span><span class="n">style</span><span class="o">:</span> <span class="n">preserve</span><span class="m">-3</span><span class="n">d</span><span class="p">;</span>
+<span class="lineno">20</span>     <span class="n">transform</span><span class="o">-</span><span class="n">style</span><span class="o">:</span> <span class="n">preserve</span><span class="m">-3</span><span class="n">d</span><span class="p">;</span>
+<span class="lineno">21</span> 
+<span class="lineno">22</span>     <span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span>
+<span class="lineno">23</span>     <span class="k">height</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="lineno">24</span>     <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="lineno">25</span>     <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="lineno">26</span> 
+<span class="lineno">27</span>     <span class="c">/* MUI IMPORTANTE: Do NOT use display: block/none for showing hiding pages*/</span>
+<span class="lineno">28</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">-1000%</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">29</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">-1000%</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">30</span>     <span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">-1000%</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">31</span> <span class="p">}</span>
+<span class="lineno">32</span> 
+<span class="lineno">33</span> <span class="nc">.view.current-view</span> <span class="p">{</span>
+<span class="lineno">34</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">35</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">36</span>     <span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">37</span> <span class="p">}</span>
+<span class="lineno">38</span> 
+<span class="lineno">39</span> <span class="nc">.view.transition-view</span> <span class="p">{</span>
+<span class="lineno">40</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">41</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">42</span>     <span class="n">transform</span><span class="o">:</span> <span class="n">translate3d</span><span class="p">(</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="o">,</span><span class="m">0</span><span class="p">);</span>
+<span class="lineno">43</span> <span class="p">}</span>
+<span class="lineno">44</span> <span class="c">/* Move to/from LEFT/RIGHT animations */</span>
+<span class="lineno">45</span> <span class="nc">.view-move-to-left</span> <span class="p">{</span>
+<span class="lineno">46</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">animation</span><span class="o">:</span> <span class="n">moveToLeft</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">47</span>     <span class="n">animation</span><span class="o">:</span> <span class="n">moveToLeft</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">48</span> <span class="p">}</span>
+<span class="lineno">49</span> 
+<span class="lineno">50</span> <span class="nc">.view-move-from-left</span> <span class="p">{</span>
+<span class="lineno">51</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">animation</span><span class="o">:</span> <span class="n">moveFromLeft</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">52</span>     <span class="n">animation</span><span class="o">:</span> <span class="n">moveFromLeft</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">53</span> <span class="p">}</span>
+<span class="lineno">54</span> 
+<span class="lineno">55</span> <span class="nc">.view-move-to-right</span> <span class="p">{</span>
+<span class="lineno">56</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">animation</span><span class="o">:</span> <span class="n">moveToRight</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">57</span>     <span class="n">animation</span><span class="o">:</span> <span class="n">moveToRight</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">58</span> <span class="p">}</span>
+<span class="lineno">59</span> 
+<span class="lineno">60</span> <span class="nc">.view-move-from-right</span> <span class="p">{</span>
+<span class="lineno">61</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">animation</span><span class="o">:</span> <span class="n">moveFromRight</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">62</span>     <span class="n">animation</span><span class="o">:</span> <span class="n">moveFromRight</span> <span class="m">.6s</span> <span class="n">ease</span> <span class="k">both</span><span class="p">;</span>
+<span class="lineno">63</span> <span class="p">}</span>
+<span class="lineno">64</span> 
+<span class="lineno">65</span> <span class="c">/*</span>
+<span class="lineno">66</span> <span class="c">    Key-frames for LEFT/RIGHT movement animations</span>
+<span class="lineno">67</span> <span class="c">    not included in article. Please check link to</span>
+<span class="lineno">68</span> <span class="c">    github repo.</span>
+<span class="lineno">69</span> <span class="c">*/</span></code></pre></div>
 
 <p>Now there are a couple of things I’d like to point out:</p>
 
@@ -255,104 +251,103 @@ keyframe business all about.[<a href="https://developer.mozilla.org/en-US/docs/W
   <li>( Optional ) Emit some custom event regarding the view change.</li>
   <li>( Optional ) Add some basic error logging to help you (and maybe some of your colleagues ), the next time some HTML has to be added to the page.</li>
 </ol>
-<div>
-  <pre><code class="javascript">var navigation = (function ( $ ){
-    'use strict';
-    var navModule = {},
-        viewTransitions = {
-            'sliderighttoleft': {
-                'outDirection': 'view-move-to-left',
-                'inDirection': 'view-move-from-right'
-            },
-            'slidelefttoright': {
-                'outDirection': 'view-move-to-right',
-                'inDirection': 'view-move-from-left'
-            }
-        },
-        animEndEventNames = {
-            'WebkitAnimation' : 'webkitAnimationEnd',
-            'OAnimation' : 'oAnimationEnd',
-            'msAnimation' : 'MSAnimationEnd',
-            'animation' : 'animationend'
-        },
 
-        // general css classes for the animation
-        currentViewClass = 'current-view',
-        transitionViewClass = 'transition-view';
-
-    // private function for our module
-    function changeView ( options ) {
-        // NOTE: here we explicitly choose the Webkit vendor prefix
-        // next line should detect browser type and is left like that for the sake of simplicity.
-
-        // animation classes
-        var animationEndEvent = animEndEventNames[ 'WebkitAnimation' ],
-            _this = this,
-            outClass,
-            inClass;
-
-        if( options.viewTransition === undefined ) {
-            // default transition
-            options.viewTransition = 'sliderighttoleft';
-        }
-
-        outClass = transitionViewClass + ' ' + viewTransitions[ options.viewTransition ].outDirection;
-        inClass = transitionViewClass + ' ' + viewTransitions[ options.viewTransition ].inDirection;
-
-        options.$currentView.removeClass( currentViewClass )
-            .addClass( outClass );
-
-        options.$destinationView.addClass( currentViewClass )
-                .addClass( inClass );
-
-        options.$currentView.on( animationEndEvent, function() {
-            options.$currentView.removeClass( outClass );
-        });
-
-        options.$destinationView.on( animationEndEvent, function() {
-            options.$destinationView.removeClass( inClass );
-        });
-    }
-
-    // exposing the function for our fellow devs to use freely
-    navModule.triggerViewChange = function( options ) {
-        changeView ( options );
-    }
-
-    navModule.init = function () {
-        var _this = this;
-
-        /*
-            binding the eventListener to the document enables the
-            eventHandler triggering even from dynamically-added
-            markup
-        */
-
-        $( document ).on( 'click', '.view-link' , function( e ) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            var $this = $( this ),
-                $currentView = $this.closest( '.view' ),
-                destinationViewId = $this.data( 'viewLinkDest' ),
-                $destinationView = $( '#' + destinationViewId ),
-                viewTransition = $this.data( 'viewTransition' );
-
-
-            changeView({
-                $currentView: $currentView,
-                $destinationView: $destinationView,
-                viewTransition: viewTransition
-            });
-        });
-    }
-
-    return navModule;
-})( jQuery );
-
-
-navigation.init();</code></pre>
-</div>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno"> 1</span> <span class="kd">var</span> <span class="nx">navigation</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span> <span class="p">(</span> <span class="nx">$</span> <span class="p">){</span>
+<span class="lineno"> 2</span>     <span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+<span class="lineno"> 3</span>     <span class="kd">var</span> <span class="nx">navModule</span> <span class="o">=</span> <span class="p">{},</span>
+<span class="lineno"> 4</span>         <span class="nx">viewTransitions</span> <span class="o">=</span> <span class="p">{</span>
+<span class="lineno"> 5</span>             <span class="s1">&#39;sliderighttoleft&#39;</span><span class="o">:</span> <span class="p">{</span>
+<span class="lineno"> 6</span>                 <span class="s1">&#39;outDirection&#39;</span><span class="o">:</span> <span class="s1">&#39;view-move-to-left&#39;</span><span class="p">,</span>
+<span class="lineno"> 7</span>                 <span class="s1">&#39;inDirection&#39;</span><span class="o">:</span> <span class="s1">&#39;view-move-from-right&#39;</span>
+<span class="lineno"> 8</span>             <span class="p">},</span>
+<span class="lineno"> 9</span>             <span class="s1">&#39;slidelefttoright&#39;</span><span class="o">:</span> <span class="p">{</span>
+<span class="lineno">10</span>                 <span class="s1">&#39;outDirection&#39;</span><span class="o">:</span> <span class="s1">&#39;view-move-to-right&#39;</span><span class="p">,</span>
+<span class="lineno">11</span>                 <span class="s1">&#39;inDirection&#39;</span><span class="o">:</span> <span class="s1">&#39;view-move-from-left&#39;</span>
+<span class="lineno">12</span>             <span class="p">}</span>
+<span class="lineno">13</span>         <span class="p">},</span>
+<span class="lineno">14</span>         <span class="nx">animEndEventNames</span> <span class="o">=</span> <span class="p">{</span>
+<span class="lineno">15</span>             <span class="s1">&#39;WebkitAnimation&#39;</span> <span class="o">:</span> <span class="s1">&#39;webkitAnimationEnd&#39;</span><span class="p">,</span>
+<span class="lineno">16</span>             <span class="s1">&#39;OAnimation&#39;</span> <span class="o">:</span> <span class="s1">&#39;oAnimationEnd&#39;</span><span class="p">,</span>
+<span class="lineno">17</span>             <span class="s1">&#39;msAnimation&#39;</span> <span class="o">:</span> <span class="s1">&#39;MSAnimationEnd&#39;</span><span class="p">,</span>
+<span class="lineno">18</span>             <span class="s1">&#39;animation&#39;</span> <span class="o">:</span> <span class="s1">&#39;animationend&#39;</span>
+<span class="lineno">19</span>         <span class="p">},</span>
+<span class="lineno">20</span> 
+<span class="lineno">21</span>         <span class="c1">// general css classes for the animation</span>
+<span class="lineno">22</span>         <span class="nx">currentViewClass</span> <span class="o">=</span> <span class="s1">&#39;current-view&#39;</span><span class="p">,</span>
+<span class="lineno">23</span>         <span class="nx">transitionViewClass</span> <span class="o">=</span> <span class="s1">&#39;transition-view&#39;</span><span class="p">;</span>
+<span class="lineno">24</span> 
+<span class="lineno">25</span>     <span class="c1">// private function for our module</span>
+<span class="lineno">26</span>     <span class="kd">function</span> <span class="nx">changeView</span> <span class="p">(</span> <span class="nx">options</span> <span class="p">)</span> <span class="p">{</span>
+<span class="lineno">27</span>         <span class="c1">// NOTE: here we explicitly choose the Webkit vendor prefix</span>
+<span class="lineno">28</span>         <span class="c1">// next line should detect browser type and is left like that for the sake of simplicity.</span>
+<span class="lineno">29</span> 
+<span class="lineno">30</span>         <span class="c1">// animation classes</span>
+<span class="lineno">31</span>         <span class="kd">var</span> <span class="nx">animationEndEvent</span> <span class="o">=</span> <span class="nx">animEndEventNames</span><span class="p">[</span> <span class="s1">&#39;WebkitAnimation&#39;</span> <span class="p">],</span>
+<span class="lineno">32</span>             <span class="nx">_this</span> <span class="o">=</span> <span class="k">this</span><span class="p">,</span>
+<span class="lineno">33</span>             <span class="nx">outClass</span><span class="p">,</span>
+<span class="lineno">34</span>             <span class="nx">inClass</span><span class="p">;</span>
+<span class="lineno">35</span> 
+<span class="lineno">36</span>         <span class="k">if</span><span class="p">(</span> <span class="nx">options</span><span class="p">.</span><span class="nx">viewTransition</span> <span class="o">===</span> <span class="kc">undefined</span> <span class="p">)</span> <span class="p">{</span>
+<span class="lineno">37</span>             <span class="c1">// default transition</span>
+<span class="lineno">38</span>             <span class="nx">options</span><span class="p">.</span><span class="nx">viewTransition</span> <span class="o">=</span> <span class="s1">&#39;sliderighttoleft&#39;</span><span class="p">;</span>
+<span class="lineno">39</span>         <span class="p">}</span>
+<span class="lineno">40</span> 
+<span class="lineno">41</span>         <span class="nx">outClass</span> <span class="o">=</span> <span class="nx">transitionViewClass</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="nx">viewTransitions</span><span class="p">[</span> <span class="nx">options</span><span class="p">.</span><span class="nx">viewTransition</span> <span class="p">].</span><span class="nx">outDirection</span><span class="p">;</span>
+<span class="lineno">42</span>         <span class="nx">inClass</span> <span class="o">=</span> <span class="nx">transitionViewClass</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="nx">viewTransitions</span><span class="p">[</span> <span class="nx">options</span><span class="p">.</span><span class="nx">viewTransition</span> <span class="p">].</span><span class="nx">inDirection</span><span class="p">;</span>
+<span class="lineno">43</span> 
+<span class="lineno">44</span>         <span class="nx">options</span><span class="p">.</span><span class="nx">$currentView</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span> <span class="nx">currentViewClass</span> <span class="p">)</span>
+<span class="lineno">45</span>             <span class="p">.</span><span class="nx">addClass</span><span class="p">(</span> <span class="nx">outClass</span> <span class="p">);</span>
+<span class="lineno">46</span> 
+<span class="lineno">47</span>         <span class="nx">options</span><span class="p">.</span><span class="nx">$destinationView</span><span class="p">.</span><span class="nx">addClass</span><span class="p">(</span> <span class="nx">currentViewClass</span> <span class="p">)</span>
+<span class="lineno">48</span>                 <span class="p">.</span><span class="nx">addClass</span><span class="p">(</span> <span class="nx">inClass</span> <span class="p">);</span>
+<span class="lineno">49</span> 
+<span class="lineno">50</span>         <span class="nx">options</span><span class="p">.</span><span class="nx">$currentView</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span> <span class="nx">animationEndEvent</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="lineno">51</span>             <span class="nx">options</span><span class="p">.</span><span class="nx">$currentView</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span> <span class="nx">outClass</span> <span class="p">);</span>
+<span class="lineno">52</span>         <span class="p">});</span>
+<span class="lineno">53</span> 
+<span class="lineno">54</span>         <span class="nx">options</span><span class="p">.</span><span class="nx">$destinationView</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span> <span class="nx">animationEndEvent</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="lineno">55</span>             <span class="nx">options</span><span class="p">.</span><span class="nx">$destinationView</span><span class="p">.</span><span class="nx">removeClass</span><span class="p">(</span> <span class="nx">inClass</span> <span class="p">);</span>
+<span class="lineno">56</span>         <span class="p">});</span>
+<span class="lineno">57</span>     <span class="p">}</span>
+<span class="lineno">58</span> 
+<span class="lineno">59</span>     <span class="c1">// exposing the function for our fellow devs to use freely</span>
+<span class="lineno">60</span>     <span class="nx">navModule</span><span class="p">.</span><span class="nx">triggerViewChange</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">options</span> <span class="p">)</span> <span class="p">{</span>
+<span class="lineno">61</span>         <span class="nx">changeView</span> <span class="p">(</span> <span class="nx">options</span> <span class="p">);</span>
+<span class="lineno">62</span>     <span class="p">}</span>
+<span class="lineno">63</span> 
+<span class="lineno">64</span>     <span class="nx">navModule</span><span class="p">.</span><span class="nx">init</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+<span class="lineno">65</span>         <span class="kd">var</span> <span class="nx">_this</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+<span class="lineno">66</span> 
+<span class="lineno">67</span>         <span class="cm">/*</span>
+<span class="lineno">68</span> <span class="cm">            binding the eventListener to the document enables the</span>
+<span class="lineno">69</span> <span class="cm">            eventHandler triggering even from dynamically-added</span>
+<span class="lineno">70</span> <span class="cm">            markup</span>
+<span class="lineno">71</span> <span class="cm">        */</span>
+<span class="lineno">72</span> 
+<span class="lineno">73</span>         <span class="nx">$</span><span class="p">(</span> <span class="nb">document</span> <span class="p">).</span><span class="nx">on</span><span class="p">(</span> <span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="s1">&#39;.view-link&#39;</span> <span class="p">,</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">e</span> <span class="p">)</span> <span class="p">{</span>
+<span class="lineno">74</span>             <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+<span class="lineno">75</span>             <span class="nx">e</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
+<span class="lineno">76</span> 
+<span class="lineno">77</span>             <span class="kd">var</span> <span class="nx">$this</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span> <span class="k">this</span> <span class="p">),</span>
+<span class="lineno">78</span>                 <span class="nx">$currentView</span> <span class="o">=</span> <span class="nx">$this</span><span class="p">.</span><span class="nx">closest</span><span class="p">(</span> <span class="s1">&#39;.view&#39;</span> <span class="p">),</span>
+<span class="lineno">79</span>                 <span class="nx">destinationViewId</span> <span class="o">=</span> <span class="nx">$this</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span> <span class="s1">&#39;viewLinkDest&#39;</span> <span class="p">),</span>
+<span class="lineno">80</span>                 <span class="nx">$destinationView</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span> <span class="s1">&#39;#&#39;</span> <span class="o">+</span> <span class="nx">destinationViewId</span> <span class="p">),</span>
+<span class="lineno">81</span>                 <span class="nx">viewTransition</span> <span class="o">=</span> <span class="nx">$this</span><span class="p">.</span><span class="nx">data</span><span class="p">(</span> <span class="s1">&#39;viewTransition&#39;</span> <span class="p">);</span>
+<span class="lineno">82</span> 
+<span class="lineno">83</span> 
+<span class="lineno">84</span>             <span class="nx">changeView</span><span class="p">({</span>
+<span class="lineno">85</span>                 <span class="nx">$currentView</span><span class="o">:</span> <span class="nx">$currentView</span><span class="p">,</span>
+<span class="lineno">86</span>                 <span class="nx">$destinationView</span><span class="o">:</span> <span class="nx">$destinationView</span><span class="p">,</span>
+<span class="lineno">87</span>                 <span class="nx">viewTransition</span><span class="o">:</span> <span class="nx">viewTransition</span>
+<span class="lineno">88</span>             <span class="p">});</span>
+<span class="lineno">89</span>         <span class="p">});</span>
+<span class="lineno">90</span>     <span class="p">}</span>
+<span class="lineno">91</span> 
+<span class="lineno">92</span>     <span class="k">return</span> <span class="nx">navModule</span><span class="p">;</span>
+<span class="lineno">93</span> <span class="p">})(</span> <span class="nx">jQuery</span> <span class="p">);</span>
+<span class="lineno">94</span> 
+<span class="lineno">95</span> 
+<span class="lineno">96</span> <span class="nx">navigation</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span></code></pre></div>
 
 <h2 id="final-thoughts">Final Thoughts</h2>
 <hr />
@@ -381,7 +376,7 @@ are three key questions that help me make this choice.</p>
     Written on September 29, 2014
   </div>
 
-  Include file 'disqus.html disqus_identifier=page.disqus_identifier' contains invalid characters or sequences
+  
 </article>
 
     </div>
