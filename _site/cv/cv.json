@@ -61,6 +61,13 @@
             "start": "15/1/2015",
             "end": "1/6/2015"
         }
+    }, {
+        "company": "Xoomworks",
+        "position": "Front-end developer",
+        "timeSpan": {
+            "start": "14/10/2016",
+            "end": ""
+        }
     }],
     "programmingSkills": {
         "general": ["OOP","Data Structures", "Algorithms", "Refactoring", "TDD", "Code Reviewing"],
