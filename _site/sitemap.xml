@@ -1,200 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>/Creating-JQM-like-transitions/</loc>
-<lastmod>2014-09-29T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>/Hello-World/</loc>
-<lastmod>2014-08-24T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>/404/</loc>
-</url>
-<url>
-<loc>/about/</loc>
-</url>
-<url>
-<loc>/</loc>
-</url>
-<url>
-<loc>/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/Creating-JQM-like-transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/Hello-World/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/putzmitt3l.github.io/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/Creating-JQM-like-transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/Hello-World/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/serve/server/putzmitt3l.github.io/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/Creating-JQM-like-transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/Hello-World/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/404.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/about/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/cv/hr.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/cv/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/demo/transitions/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
-<url>
-<loc>/server/putzmitt3l.github.io/index.html</loc>
-<lastmod>2016-01-27T20:19:23+02:00</lastmod>
-</url>
+  <url>
+    <loc>/Creating-JQM-like-transitions/</loc>
+    <lastmod>2014-09-29T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/Creating-JQM-like-transitions/</loc>
+    <lastmod>2014-09-29T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/Hello-World/</loc>
+    <lastmod>2014-08-24T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/Hello-World/</loc>
+    <lastmod>2014-08-24T00:00:00+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/404.html</loc>
+  </url>
+  <url>
+    <loc>/putzmitt3l.github.io/404.html</loc>
+  </url>
+  <url>
+    <loc>/about/</loc>
+  </url>
+  <url>
+    <loc>/about/</loc>
+  </url>
+  <url>
+    <loc>/putzmitt3l.github.io/</loc>
+  </url>
+  <url>
+    <loc>/</loc>
+  </url>
+  <url>
+    <loc>/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:40:30+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/cv/index.html</loc>
+    <lastmod>2015-08-31T18:27:42+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/Hello-World/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/cv/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/about/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/404.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/cv/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/about/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/404.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/putzmitt3l.github.io/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/server/Creating-JQM-like-transitions/index.html</loc>
+    <lastmod>2015-08-31T18:47:01+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:27:42+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/putzmitt3l.github.io/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:30:38+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/putzmitt3l.github.io/cv/index.html</loc>
+    <lastmod>2015-08-31T18:30:38+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/putzmitt3l.github.io/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:30:38+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/Hello-World/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/cv/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/about/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/Hello-World/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/cv/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/about/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/404.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/cv/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/about/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/404.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/putzmitt3l.github.io/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/server/Creating-JQM-like-transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/404.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/cv/hr.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/cv/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/about/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/404.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/demo/transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/putzmitt3l.github.io/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
+  <url>
+    <loc>/serve/Creating-JQM-like-transitions/index.html</loc>
+    <lastmod>2015-08-31T18:49:20+03:00</lastmod>
+  </url>
 </urlset>
